@@ -285,7 +285,8 @@ header#headerGaleria h1 {
   color: #fff;
   margin: 0;
   padding: 20px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-align: center; }
 
 section#galeria {
   background-color: #2e2d2d; }
@@ -315,31 +316,44 @@ section#galeria h2 {
   background-image: url("../imagenes/yafue1.jpg"); }
 
 .yafue2-photo {
-  background-image: url("../imagenes/yafue2.jpg"); }
+  background-image: url("../imagenes/yafue2.jpg");
+  background-position: center;
+ }
 
 .yafue3-photo {
-  background-image: url("../imagenes/yafue3.jpg"); }
+  background-image: url("../imagenes/yafue3.jpg");
+  background-position: center;
+ }
 
 .yafue4-photo {
-  background-image: url("../imagenes/yafue4.jpg"); }
+  background-image: url("../imagenes/yafue4.jpg");
+ }
 
 .yafue5-photo {
-  background-image: url("../imagenes/yafue5.jpg"); }
+  background-image: url("../imagenes/yafue5.jpg");
+  background-position: center;
+}
 
 .yafue6-photo {
-  background-image: url("../imagenes/yafue6.jpg"); }
+  background-image: url("../imagenes/yafue6.jpg");
+  background-position: center;
+}
 
 .yafue7-photo {
-  background-image: url("../imagenes/yafue7.jpg"); }
+  background-image: url("../imagenes/yafue7.jpg");
+  background-position: center;
+}
 
 .yafue8-photo {
   background-image: url("../imagenes/yafue8.jpg"); }
 
 .yafue9-photo {
-  background-image: url("../imagenes/yafue9.jpg"); }
+  background-image: url("../imagenes/yafue9.jpg");
+}
 
 .yafue10-photo {
-  background-image: url("../imagenes/yafue10.jpg"); }
+  background-image: url("../imagenes/yafue10.jpg");
+}
 
 .yafue11-photo {
   background-image: url("../imagenes/yafue11.jpg"); }
@@ -354,7 +368,7 @@ section#galeria h2 {
 
 /*MERCHANDISING*/
 header#headerMerchandising {
-  background: url("../imagenes/imagen-secundaria.jpg");
+  background: url("../imagenes/tercera-imagen.jpg");
   background-size: cover;
   background-position: top center;
   background-blend-mode: soft-light;
@@ -466,14 +480,20 @@ header#headerMerchandising h1 {
 
 .taza1 {
   background-image: url("../imagenes/taza1.jpg");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
+  background-color: #fff;
+  width: 100%;
   border: 3px solid #000;
   border-radius: 5px; }
 
 .gorro {
   background-image: url("../imagenes/gorro.jpg");
   background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff;
   border: 3px solid #000;
   border-radius: 5px; }
 
@@ -620,12 +640,12 @@ header#headerContacto h1 {
         width: 100%;
     }
     header#headerIndex {
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-color: #00000063;
-        width: 100%;
-        height: 100vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: #00000063;
+      width: 100%;
+      height: 400px;
     }
     header#headerIndex nav {
         width: 100%;
@@ -697,7 +717,6 @@ header#headerContacto h1 {
   /*MERCHANDISING*/
   header#headerMerchandising {
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #00000063;
@@ -769,7 +788,9 @@ header#headerContacto h1 {
     margin: 0 30%; }
   .gorro-resp {
     background-image: url("../imagenes/gorro.jpg");
-    background-size: cover;
+    background-size: contain;
+    background-color: #fff;
+    background-repeat: no-repeat;
     background-position: center;
     border: 3px solid #000;
     border-radius: 5px;
